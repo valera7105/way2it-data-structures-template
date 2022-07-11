@@ -44,11 +44,11 @@ public class BinaryTreeTest {
 
         BinaryTree binaryTree = new BinaryTree();
         int min = 0;
-        int max = 10_000;
+        int max = 10;
         addRange(binaryTree, min, max);
 
         long startTime = System.currentTimeMillis();
-        for (int i = 0; i < 1_000_000; i++) {
+        for (int i = 0; i < 1; i++) {
             binaryTree.contains(i);
         }
         long elapsedMillis = System.currentTimeMillis() - startTime;
