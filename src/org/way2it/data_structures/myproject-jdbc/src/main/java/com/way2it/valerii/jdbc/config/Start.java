@@ -19,5 +19,6 @@ public class Start {
     libraryDao.updateAutor(17,date,"td.natalia@gmail.com","Nataliya","Soroka");
 
     System.out.println(libraryDao.getAutorById(17));
+    
   }
 }
